@@ -23,38 +23,18 @@ Términos y Condiciones: Condiciones de uso del sitio web y servicios.
 Estructura del Proyecto
 La estructura del proyecto es la siguiente:
 
-/miSitioWeb
-│
-├── /src
-│   └── /com
-│       └── /miempresa
-│           └── Contenido.java           # Clase con el contenido estático de las páginas
-│
-├── /WebContent
-│   ├── /css
-│   │   └── bootstrap.min.css            # Archivo CSS de Bootstrap
-│   ├── /js
-│   │   └── bootstrap.bundle.min.js      # Archivo JS de Bootstrap
-│   ├── /images                          # Carpeta de imágenes para la Galería
-│   │
-│   ├── index.jsp                        # Página de inicio
-│   ├── sobre.jsp                        # Página sobre nosotros
-│   ├── politica.jsp                     # Página de política de privacidad
-│   ├── preguntas.jsp                    # Página de preguntas frecuentes
-│   ├── galeria.jsp                      # Página de galería
-│   ├── terminos.jsp                     # Página de términos y condiciones
-│   ├── testimonios.jsp                  # Página de testimonios
-│   ├── servicios.jsp                    # Página de servicios/productos
-│   ├── contacto.jsp                     # Página de contacto
-│   │
-│   ├── header.jsp                       # Header común
-│   └── footer.jsp                       # Footer común
-│
-└── web.xml                              # Archivo de configuración del despliegue
+Imagen de la estructura del proyecto en enlace: https://github.com/user-attachments/assets/7c88a5b4-2428-415a-a132-7e0ae0118958
+
+
 Requisitos:
 Bootstrap: Todo el sitio está diseñado con componentes de Bootstrap para un diseño atractivo y responsivo.
 JSP con Instrucciones de Inclusión: Uso de include para reutilizar el código del header y footer.
 Contenido Estatico desde Clase Java: Toda la información de las secciones se gestiona desde Contenido.java, que centraliza los textos. Las páginas .jsp utilizan echo y <%= %> para renderizar dinámicamente el contenido en el sitio.
+Uso:
+Cambiar Contenidos: Actualiza los textos en Contenido.java para reflejar cambios en las secciones sin necesidad de editar cada página individualmente.
+Navegar por el Sitio: Las diferentes secciones y páginas están interconectadas en el header y footer comunes para fácil acceso.
+Formulario de Contacto: El formulario en contacto.jsp permite a los usuarios enviar mensajes a la empresa. Asegúrate de configurar el backend para manejar el envío de mensajes.
+contenido en el sitio.
 Uso:
 Cambiar Contenidos: Actualiza los textos en Contenido.java para reflejar cambios en las secciones sin necesidad de editar cada página individualmente.
 Navegar por el Sitio: Las diferentes secciones y páginas están interconectadas en el header y footer comunes para fácil acceso.
